@@ -10,7 +10,7 @@
         
         <input onclick="changecreditsvar();" type="button" value="CREDITS">
         <br>
-        <input onclick="quit();" type="button" value="QUIT">
+        <input onclick="javascript:window.close();" type="button" value="QUIT">
         <br>
         <p id="testplay"></p>
     </head>
@@ -28,15 +28,6 @@
     <script>
         var credits = 0;
         var play = 0;
-        var quit = 0;
-        function quit() {
-            var quit = 1;
-            if (quit == 1) {
-                setTimeout(function() {
-                    window.open('','_self').close();
-                }, 500);
-            }
-        }
         function changeplayvar() {
             var play = 1;
             if (play == 1) {
