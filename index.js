@@ -14,6 +14,7 @@ function LoadGameStart() {
 }
 function CreditsStart() {
   setTimeout(function() {
-  document.body.innerHTML = "";
-  }, 500);
+  document.getElementById("DivTitleScreenID").innerHTML = "";
+  document.getElementById("CreditsSoon").innerHTML = "Coming soon...";
+  }, 1000);
 }
