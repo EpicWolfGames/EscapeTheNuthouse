@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Escape The Nuthouse!</title>
+        <h1>ESCAPE THE NUTHOUSE!</h1>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <input onclick="changeplayvar();" type="button" value="NEW GAME">
+        <br>
+        <input onclick="changeplayvar();" type="button" value="LOAD GAME">
+        <br>
+        
+        <input onclick="changecreditsvar();" type="button" value="CREDITS">
+        <br>
+        <input onclick="javascript:window.close();" type="button" value="QUIT">
+        <br>
+        <p id="testplay"></p>
+    </head>
+    <style>
+        body {
+            background-image: linear-gradient(to bottom right, #03fcec, #0313fc);
+        }
+        h1 {
+            font-family: "press Start 2P";
+        }
+        input[type = button] {
+        font-family: "press Start 2P";
+        }
+    </style>
+    <script>
+        var credits = 0;
+        var play = 0;
+        function changeplayvar() {
+            var play = 1;
+            if (play == 1) {
+            const element = document.getElementById("testplay");
+            element.innerHTML = "playtesting";
+            setTimeout(function() {
+            element.innerHTML = "";
+            }, 5000);
+            }
+        }
+        function changecreditsvar() {
+            var credits = 1;
+            if (credits == 1) {
+            const element = document.getElementById("testplay");
+            element.innerHTML = "credtesting";
+            setTimeout(function() {
+            element.innerHTML = "";
+            }, 5000);
+            }
+        }
+    </script>
+</html>
