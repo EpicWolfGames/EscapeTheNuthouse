@@ -15,6 +15,6 @@ function LoadGameStart() {
 function CreditsStart() {
   setTimeout(function() {
   document.getElementById("DivTitleScreenID").innerHTML = "";
-  document.getElementById("CreditsSoon").innerHTML = "Coming soon...";
+  document.getElementById("CreditsCenterID").innerHTML = "<h1>Coming soon...</h1>";
   }, 1000);
 }
