@@ -1,23 +1,21 @@
 <html>
-    <head>
+    <body>
         <title>Escape The Nuthouse!</title>
         <link rel="icon" type="image/x-icon" href="favicon.ico">
         <h1>ESCAPE THE NUTHOUSE!</h1>
         <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-        <input onclick="changeplayvar();" type="button" value="NEW GAME">
+        <input onclick="NewGameStart();" type="button" value="NEW GAME">
         <br>
         <br>
-        <input onclick="changeplayvar();" type="button" value="LOAD GAME">
+        <input onclick="LoadGameStart();" type="button" value="LOAD GAME">
         <br>
         <br>
-        <input onclick="changecreditsvar();" type="button" value="CREDITS">
+        <input onclick="CreditsStart();" type="button" value="CREDITS">
         <br>
         <br>
         <input onclick="javascript:window.close();" type="button" value="QUIT">
         <br>
         <p id="testplay"></p>
-    </head>
-    <body>
         <h5 id="EWGProductions">AN EPICWOLF GAMES PRODUCTION</h5>
     </body>
     <style>
@@ -41,27 +39,22 @@
         }
     </style>
     <script>
-        var credits = 0;
-        var play = 0;
-        function changeplayvar() {
-            var play = 1;
-            if (play == 1) {
+        function NewGameStart() {
             const element = document.getElementById("testplay");
-            element.innerHTML = "playtesting";
+            element.innerHTML = "newgametesting";
             setTimeout(function() {
             element.innerHTML = "";
             }, 5000);
-            }
         }
-        function changecreditsvar() {
-            var credits = 1;
-            if (credits == 1) {
+        function LoadGameStart() {
             const element = document.getElementById("testplay");
-            element.innerHTML = "credtesting";
+            element.innerHTML = "loadtesting";
             setTimeout(function() {
             element.innerHTML = "";
             }, 5000);
-            }
+        }
+        function CreditsStart() {
+            document.body.innerHTML = "";
         }
     </script>
 </html>
