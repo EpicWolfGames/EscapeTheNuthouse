@@ -8,7 +8,7 @@ body {
   font-family: "press Start 2P";
   text-align: center;
 }
-input[type = button] {
+.DivTitleScreen input[type = button] {
   border: 0;
   font-size: 20px;
   height: 50px;
