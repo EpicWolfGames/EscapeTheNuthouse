@@ -16,3 +16,4 @@ function CreditsStart() {
   document.getElementById("CreditsCenterID").innerHTML = "<h1>Coming soon...</h1>";
   }, 500);
 }
+// up up down down left right left right b a start :)
