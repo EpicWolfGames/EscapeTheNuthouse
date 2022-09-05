@@ -4,6 +4,7 @@
         <link rel="icon" type="image/x-icon" href="favicon.ico">
         <link rel="stylesheet" href="index.css">
         <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <script src="index.js"></script>
     </head>
     <body>
         <h1>ESCAPE THE NUTHOUSE!</h1>
@@ -22,23 +23,4 @@
         <p id="testplay"></p>
         <h5 id="EWGProductions">AN EPICWOLF GAMES PRODUCTION</h5>
     </body>
-    <script>
-        function NewGameStart() {
-            const element = document.getElementById("testplay");
-            element.innerHTML = "newgametesting";
-            setTimeout(function() {
-            element.innerHTML = "";
-            }, 5000);
-        }
-        function LoadGameStart() {
-            const element = document.getElementById("testplay");
-            element.innerHTML = "loadtesting";
-            setTimeout(function() {
-            element.innerHTML = "";
-            }, 5000);
-        }
-        function CreditsStart() {
-            
-        }
-    </script>
 </html>
