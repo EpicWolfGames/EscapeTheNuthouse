@@ -1,7 +1,7 @@
 body {
   background-image: linear-gradient(to bottom right, #03fcec, #0313fc);
 }
-#DivTitleScreen {
+.DivTitleScreen {
   font-family: "press Start 2P;
 }
 input[type = button] {
