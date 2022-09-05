@@ -28,6 +28,15 @@
     <script>
         var credits = 0;
         var play = 0;
+        var quit = 0;
+        function quit() {
+            var quit = 1;
+            if (quit == 1) {
+                setTimeout(function() {
+                    window.close();
+                }, 500);
+            }
+        }
         function changeplayvar() {
             var play = 1;
             if (play == 1) {
