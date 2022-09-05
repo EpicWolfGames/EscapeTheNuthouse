@@ -13,5 +13,5 @@ function LoadGameStart() {
   }, 5000);
 }
 function CreditsStart() {
-  document.body.innerHTML = "";
+  
 }
