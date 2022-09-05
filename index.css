@@ -19,6 +19,9 @@ body {
   position: absolute;
   bottom: 0;
 }
+.DivTitleScreen input[type = button]:hover {
+    color: red;
+}
 .MenuChar {
   width: 12rem;
   height: 12rem;
