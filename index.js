@@ -13,5 +13,7 @@ function LoadGameStart() {
   }, 5000);
 }
 function CreditsStart() {
+  setTimeout(function() {
   document.body.innerHTML = "";
+  }, 500);
 }
