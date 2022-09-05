@@ -1,7 +1,7 @@
 // when the new game button is pressed
 function NewGameStart() {
   document.getElementById("DivTitleScreenID").innerHTML = "";
-  document.getElementById("CreditsCenterID").innerHTML = "<h1>Coming soon...</h1>";
+  document.body.style.background = "cyan";
 }
 // when the load game button is pressed
 function LoadGameStart() {
