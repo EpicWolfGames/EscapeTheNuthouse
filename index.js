@@ -13,15 +13,5 @@ function LoadGameStart() {
   }, 5000);
 }
 function CreditsStart() {
-  document.body.innerHTML = "
-  <h1>Coming soon...</h1>
-  <style>
-    h1 {
-      font-family: "press Start 2P";
-      position: absolute;
-      top: 50%;
-      left: 50%;
-    }
-  </style>
-  ";
+  document.body.innerHTML = "";
 }
