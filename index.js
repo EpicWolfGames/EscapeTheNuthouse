@@ -4,10 +4,6 @@ function NewGameStart() {
     document.getElementById("DivTitleScreenID").innerHTML = "";
     document.body.style.background = "black";
     document.getElementById("LoadingScreen").innerHTML = "<h1>Loading...</h1>";
-    setTimeout(function() {
-      document.getElementById("LoadingScreen").innerHTML = "";
-      document.body.style.background = "cyan";
-    }, 5000);
   }, 500);
 }
 // when the load game button is pressed
