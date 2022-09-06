@@ -22,6 +22,13 @@ body {
 .DivTitleScreen input[type = button]:hover {
     color: red;
 }
+#LoadingScreen {
+  font-family: "press Start 2P";
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  color: white;
+}
 /* the pixel character on the title screen */
 .MenuChar {
   width: 12rem;
