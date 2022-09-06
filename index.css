@@ -16,7 +16,8 @@ body {
   width: 10%;
   font-family: "press Start 2P";
   position: absolute;
-  bottom: 0;
+  bottom: 6;
+  left: 1.2%;
 }
 .CreditsCenter input[type = button]:hover {
   color: red;
