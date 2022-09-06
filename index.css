@@ -18,6 +18,7 @@ body {
   position: absolute;
   bottom: 6;
   left: 0.5%;
+  color: black;
 }
 .CreditsCenter input[type = button]:hover {
   color: red;
