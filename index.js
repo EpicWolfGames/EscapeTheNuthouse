@@ -21,7 +21,7 @@ function CreditsStart() {
 }
 // takes you back to title screen
 function BackToTitleScreen() {
-  setTimout(function() {
+  setTimeout(function() {
   document.getElementById("CreditsCenterID").innerHTML = "";
   document.getElementById("DivTitleScreenID").innerHTML = "<h1>ESCAPE THE NUTHOUSE!</h1><br><input onclick='NewGameStart();' type='button' value='NEW GAME'><br><br><input onclick='LoadGameStart();' type='button' value='LOAD GAME'><br><br><input onclick='CreditsStart();' type='button' value='CREDITS'><div class='MenuChar'><div class='MenuPixels'></div></div><h5 id='EWGProductions'>AN EPICWOLF GAMES PRODUCTION</h5>";
   }, 500);
