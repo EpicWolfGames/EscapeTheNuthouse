@@ -19,4 +19,3 @@ function CreditsStart() {
   document.getElementById("CreditsCenterID").innerHTML = "<h1>Coming soon...</h1> <input type='button' value='BACK'>";
   }, 500);
 }
-// github dont break
