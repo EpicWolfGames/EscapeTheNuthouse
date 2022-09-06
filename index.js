@@ -8,7 +8,7 @@ function NewGameStart() {
       document.getElementById("LoadingScreen").innerHTML = "";
       document.body.style.background = "cyan";
       document.getElementById("TheGame").innerHTML = "<div class='grass'></div>";
-    }, 5000);
+    }, 3000);
   }, 500);
 }
 // when the load game button is pressed
