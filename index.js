@@ -3,10 +3,11 @@ function NewGameStart() {
   setTimeout(function() {
     document.getElementById("DivTitleScreenID").innerHTML = "";
     document.body.style.background = "black";
-    document.getElementById("NewGameTestID").innerHTML = "<h1>Loading...</h1>";
+    document.getElementById("LoadingScreen").innerHTML = "<h1>Loading...</h1>";
     setTimeout(function() {
-      document.getElementById("NewGameTestID").innerHTML = "";
+      document.getElementById("LoadingScreen").innerHTML = "";
       document.body.style.background = "cyan";
+      document.getElementById("TheGame").innerHTML = "<div class='grass'></div>";
     }, 5000);
   }, 500);
 }
