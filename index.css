@@ -19,7 +19,6 @@ body {
   position: absolute;
   bottom: 0;
 }
-/* these are here to show i edited because github is being annoying */
 .DivTitleScreen input[type = button]:hover {
     color: red;
 }
