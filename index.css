@@ -23,7 +23,7 @@ body {
     color: red;
 }
 /* load my little buddy load */
-#LoadingScreen {
+.LoadingScreenClass {
   font-family: "press Start 2P";
   top: 50%;
   left: 50%;
