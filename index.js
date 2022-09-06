@@ -4,7 +4,7 @@ function NewGameStart() {
     document.getElementById("DivTitleScreenID").innerHTML = "";
     document.body.style.background = "black";
     document.getElementById("NewGameTestID").innerHTML = "<h1>Loading...</h1>";
-    setTimemout(function() {
+    setTimeout(function() {
       document.getElementById("NewGameTestID").innerHTML = "";
       document.body.style.background = "cyan";
     }, 5000);
