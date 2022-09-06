@@ -22,13 +22,18 @@ body {
 .CreditsCenter input[type = button]:hover {
   color: red;
 }
-.NewGameTest {
+.LoadingScreenC {
   color: white;
   font-family: "press Start 2P";
   position: absolute;
   left: 50%;
   top: 50%;
   transform:translate(-50%,-50%);
+}
+.grass {
+  width: 100%;
+  height: 100px;
+  background: green;
 }
 .DivTitleScreen input[type = button] {
   border: 0;
