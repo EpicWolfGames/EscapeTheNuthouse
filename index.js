@@ -32,8 +32,8 @@ function BackToTitleScreen() {
   }, 500);
 }
 // placeholder code please remember. 
-// document.getElementById("LevelsJS").innerHTML = "<script src='levels.js'></script>";
-// document.getElementById("LevelsCSS").innerHTML = "<link rel='stylesheet' href='levels.css'>";
-// document.getElementById("CutscenesJS").innerHTML = "<script src='cutscenes.js'></script>";
-// document.getElementById("CutscenesCSS").innerHTML = "<link rel='stylesheet' href='cutscenes.css'>";
+// document.getElementById("LevelsJS").innerHTML = "<script src='Levels/levels.js'></script>";
+// document.getElementById("LevelsCSS").innerHTML = "<link rel='stylesheet' href='Levels/levels.css'>";
+// document.getElementById("CutscenesJS").innerHTML = "<script src='Cutscenes/cutscenes.js'></script>";
+// document.getElementById("CutscenesCSS").innerHTML = "<link rel='stylesheet' href='Cutscenes/cutscenes.css'>";
 // these lines of code are used in start game
