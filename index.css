@@ -31,9 +31,11 @@ body {
   transform:translate(-50%,-50%);
 }
 .grass {
-  width: 100%;
+  width: 150%;
   height: 100px;
   background: green;
+  bottom: 0;
+  position: absolute;
 }
 .DivTitleScreen input[type = button] {
   border: 0;
