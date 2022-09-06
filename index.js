@@ -1,8 +1,13 @@
 // when the new game button is pressed
 function NewGameStart() {
   setTimeout(function() {
-  document.getElementById("DivTitleScreenID").innerHTML = "";
-  document.getElementById("CreditsCenterID").innerHTML = "<h1>Coming soon...</h1> <input onclick='BackToTitleScreen();' type='button' value='BACK'>";
+    document.getElementById("DivTitleScreenID").innerHTML = "";
+    document.body.style.background = "black";
+    document.getElementById("NewGameTestID").innerHTML = "<h1>Loading...</h1>";
+    setTimemout(function() {
+      document.getElementById("NewGameTestID").innerHTML = "";
+      document.body.style.background = "cyan";
+    }, 5000);
   }, 500);
 }
 // when the load game button is pressed
