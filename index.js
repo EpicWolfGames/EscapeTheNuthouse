@@ -22,7 +22,7 @@ function LoadGameStart() {
 function CreditsStart() {
   setTimeout(function() {
   document.getElementById("DivTitleScreenID").innerHTML = "";
-  document.getElementById("CreditsCenterID").innerHTML = "<h1>Coming soon...</h1> <input onclick='BackToTitleScreen();' type='button' value='BACK'>";
+  document.getElementById("CreditsCenterID").innerHTML = "<h1>ESCAPE THE NUTHOUSE</h1> <h1>test</h1> <input onclick='BackToTitleScreen();' type='button' value='BACK'>";
   }, 500);
 }
 // takes you back to title screen
