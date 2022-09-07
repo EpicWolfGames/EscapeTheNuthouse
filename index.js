@@ -8,6 +8,8 @@ function NewGameStart() {
       document.getElementById("LoadingScreen").innerHTML = "";
       document.body.style.background = "cyan";
       document.getElementById("TheGame").innerHTML = "<div class='grass'></div>";
+      document.getElementById("EntityModelsJS").innerHTML = "<script src="EntityModels/entitymodels.js"></script>";
+      document.getElementById("EntityModelsCSS").innerHTML = "<link rel='stylesheet' href='EntityModels/entitymodels.css'>";
     }, 3000);
   }, 500);
 }
