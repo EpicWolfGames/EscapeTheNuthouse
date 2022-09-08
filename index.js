@@ -25,6 +25,15 @@ function CreditsStart() {
   document.getElementById("CreditsCenterID").innerHTML = "<h1>ESCAPE THE NUTHOUSE</h1> <h1>A Game by Epic Wolf Games</h1> <h1>Created by EpicJohn</h1> <h1>Co-Created by MegaWolf</h1> <h1>Programmed by MegaWolf</h1> <h1>Original Art by EpicJohn</h1> <h1>Menu Art by MegaWolf</h1> <input onclick='BackToTitleScreen();' type='button' value='BACK'>";
   }, 500);
 }
+
+function InfoStart() {
+  setTimeout(function() {
+  document.getElementById("DivTitleScreenID").innerHTML = "";
+  document.getElementById("CreditsCenterID").innerHTML = "";
+  document.getElementById("InfoCenterID").innerHTML = "<h1>ESCAPE THE NUTHOUSE</h1> <br> <h1>Current Version: Alpha 1</h1> <h1>Programmed entirely within JavaScript, HTML, and CSS.";
+  }, 500);
+}
+
 // takes you back to title screen
 function BackToTitleScreen() {
   setTimeout(function() {
