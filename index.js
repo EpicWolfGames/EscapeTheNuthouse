@@ -50,9 +50,9 @@ var char = document.getElementById('char');
 var grass = document.getElementById('grass');
 while (0 == 0) {
   if (checkCollision(char, grass)) {
-    var gravity = 0;
+    var gravity == 0;
   } else {
-    var gravity = 1;
+    var gravity == 1;
   }
   if (gravity == 1) {
     char.style.top = `${char.style.top+-1}px`;
