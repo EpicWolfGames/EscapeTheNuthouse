@@ -54,6 +54,15 @@ body {
 .DivTitleScreen input[type = button]:hover {
     color: red;
 }
+.char {
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  position: absolute;
+  background: white;
+  width: 10px;
+  height: 10px;
+}
 /* the pixel character on the title screen */
 .MenuChar {
   width: 12rem;
