@@ -29,7 +29,7 @@ function CreditsStart() {
 function InfoStart() {
   setTimeout(function() {
   document.getElementById("DivTitleScreenID").innerHTML = "";
-  document.getElementById("CreditsCenterID").innerHTML = "<h1>ESCAPE THE NUTHOUSE</h1> <br> <h1>Current Version: Alpha 1</h1> <h1>Programmed entirely within JavaScript, HTML, and CSS.</h1> <input onclick='BackToTitleScreen();' type='button' value='BACK'>";
+  document.getElementById("CreditsCenterID").innerHTML = "<h1>ESCAPE THE NUTHOUSE</h1> <br> <h1>Current Version: Pre-Alpha</h1> <h1>Programmed entirely within JavaScript, HTML, and CSS.</h1> <input onclick='BackToTitleScreen();' type='button' value='BACK'>";
   }, 500);
 }
 
