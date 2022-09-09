@@ -49,7 +49,7 @@ function checkCollision(elm1, elm2) {
 var char = document.getElementById('char');
 var grass = document.getElementById('grass');
 var gravity = 1;
-while (0 == 0) {
+while (true) {
   if (checkCollision(char, grass)) {
     gravity = 0;
   } else {
