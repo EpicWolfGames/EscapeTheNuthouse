@@ -48,11 +48,12 @@ function checkCollision(elm1, elm2) {
 }
 var char = document.getElementById('char');
 var grass = document.getElementById('grass');
+var gravity = 1;
 while (0 == 0) {
   if (checkCollision(char, grass)) {
-    var gravity == 0;
+    gravity = 0;
   } else {
-    var gravity == 1;
+    gravity = 1;
   }
   if (gravity == 1) {
     char.style.top = `${char.style.top+-1}px`;
